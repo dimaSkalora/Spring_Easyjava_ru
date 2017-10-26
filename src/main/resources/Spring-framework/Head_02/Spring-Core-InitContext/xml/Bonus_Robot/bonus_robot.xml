@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="modelT800" class="spring_framework.head_02.spring_core_initcontext.xml.bonus_robot.robot.ModelT800">
+        <property name="nameRobot" value="ModelT800"/>
+        <property name="weapons" ref="pistol"/>
+    </bean>
+
+    <bean id="pistol" class="spring_framework.head_02.spring_core_initcontext.xml.bonus_robot.weapons.PistolWeaponsImpl">
+        <property name="nameWeapons" value="Pistol"/>
+    </bean>
+
+</beans>
