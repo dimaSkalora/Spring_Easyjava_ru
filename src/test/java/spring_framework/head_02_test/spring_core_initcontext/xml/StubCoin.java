@@ -1,6 +1,6 @@
 package spring_framework.head_02_test.spring_core_initcontext.xml;
 
-import spring_framework.head_02.spring_core_initcontext.xml.coin.Coin;
+import spring_framework.head_02.spring_core_initcontext.xml.ru.easyjava.spring.coin.Coin;
 
 public class StubCoin implements Coin {
     private boolean constantResult;

@@ -1,4 +1,4 @@
-package spring_framework.head_02.spring_core_initcontext.xml.greeter;
+package spring_framework.head_02.spring_core_initcontext.xml.ru.easyjava.spring.greeter;
 
 /**
  * Here we determine, who we are greeting today.

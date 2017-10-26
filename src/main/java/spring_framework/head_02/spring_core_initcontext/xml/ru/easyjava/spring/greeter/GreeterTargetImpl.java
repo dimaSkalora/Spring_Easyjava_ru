@@ -1,6 +1,6 @@
-package spring_framework.head_02.spring_core_initcontext.xml.greeter;
+package spring_framework.head_02.spring_core_initcontext.xml.ru.easyjava.spring.greeter;
 
-import spring_framework.head_02.spring_core_initcontext.xml.coin.Coin;
+import spring_framework.head_02.spring_core_initcontext.xml.ru.easyjava.spring.coin.Coin;
 
 /**
  * Simple implementation with

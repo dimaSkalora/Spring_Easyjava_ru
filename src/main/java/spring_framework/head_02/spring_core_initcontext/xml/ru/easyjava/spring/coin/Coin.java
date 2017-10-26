@@ -1,4 +1,4 @@
-package spring_framework.head_02.spring_core_initcontext.xml.coin;
+package spring_framework.head_02.spring_core_initcontext.xml.ru.easyjava.spring.coin;
 
 /**
  * Coin, that could be tossed.

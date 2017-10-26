@@ -1,8 +1,8 @@
-package spring_framework.head_02.spring_core_initcontext.xml;
+package spring_framework.head_02.spring_core_initcontext.xml.ru.easyjava.spring;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import spring_framework.head_02.spring_core_initcontext.xml.greeter.Greeter;
+import spring_framework.head_02.spring_core_initcontext.xml.ru.easyjava.spring.greeter.Greeter;
 
 /**
  * Application main class.
