@@ -6,6 +6,6 @@
 http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
     <bean id="dependencyWithConfig"
-          class="spring_framework.head_05.spring_core_lifecycle.dependency.init.DependencyWithConfig" init-method="init"/>
+          class="spring_framework.head_05.spring_core_lifecycle.dependency.destroy.DependencyWithConfig" init-method="init" destroy-method="destroy"/>
 
 </beans>

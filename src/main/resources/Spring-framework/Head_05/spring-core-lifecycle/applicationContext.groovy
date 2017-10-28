@@ -6,5 +6,6 @@ beans {
 
     dependencyWithConfig(DependencyWithConfig) { bean ->
         bean.initMethod = 'init'
+        bean.destroyMethod = 'destroy'
     }
 }
