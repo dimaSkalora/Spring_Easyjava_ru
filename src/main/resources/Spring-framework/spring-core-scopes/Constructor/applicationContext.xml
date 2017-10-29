@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="singletonBean" class="spring_framework.head_07.spring_core_scopes.xml.constructor.SingletonBean"/>
+    <bean id="prototypeBean" scope="prototype" class="spring_framework.head_07.spring_core_scopes.xml.constructor.PrototypeBean"/>
+
+    <bean id="firstConsumer" class="spring_framework.head_07.spring_core_scopes.xml.constructor.FirstConsumer">
+        <constructor-arg name="singletonBean" ref="singletonBean"/>
+        <constructor-arg name="prototypeBean" ref="prototypeBean"/>
+    </bean>
+
+    <bean id="secondConsumer" class="spring_framework.head_07.spring_core_scopes.xml.constructor.SecondConsumer">
+        <constructor-arg name="singletonBean" ref="singletonBean"/>
+        <constructor-arg name="prototypeBean" ref="prototypeBean"/>
+    </bean>
+
+</beans>
