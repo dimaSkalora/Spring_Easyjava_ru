@@ -29,5 +29,18 @@ public final class App {
 
         System.out.println(greeterBean.greet());
 
+        //Регистрация бина
+        GenericBeanDefinition gbd = new GenericBeanDefinition();
+        gbd.setBeanClass(GreeterService.class);
+        gbd.setAutowireCandidate(true);
+        gbd.setScope("singleton");
+        BeanDefinitionRegistry registry = (BeanDefinitionRegistry) bf;
+        registry.registerBeanDefinition("greeter", gbd);
+
+        GreeterService greeter = (GreeterService) context.getBean("greeter");
+
+        System.out.println(greeter.greet());
+
+
     }
 }
