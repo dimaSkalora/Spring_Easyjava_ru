@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="Spring_Easyjava_ru" target="1.8" />
+      <module name="Spring_Easyjava_ru" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
