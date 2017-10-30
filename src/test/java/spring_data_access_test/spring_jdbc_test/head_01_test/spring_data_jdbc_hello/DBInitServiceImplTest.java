@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import spring_data_access.spring_jdbc.head_01.spring_data_jdbc_hello.service.DBInitService;
+import spring_data_access.spring_jdbc.head_01.spring_data_jdbc_hello.annotations.service.DBInitService;
 
 import javax.inject.Inject;
 
