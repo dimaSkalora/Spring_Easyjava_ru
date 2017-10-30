@@ -1,7 +1,7 @@
 package spring_data_access.spring_jdbc.head_02.easyjava.spring.data.jdbc.service;
 
 import org.springframework.stereotype.Service;
-import ru.easyjava.spring.data.jdbc.dao.GreeterDao;
+import spring_data_access.spring_jdbc.head_02.easyjava.spring.data.jdbc.dao.GreeterDao;
 
 import javax.inject.Inject;
 import java.util.stream.Collectors;

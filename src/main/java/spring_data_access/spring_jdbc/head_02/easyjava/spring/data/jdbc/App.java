@@ -1,8 +1,8 @@
 package spring_data_access.spring_jdbc.head_02.easyjava.spring.data.jdbc;
 
+import spring_data_access.spring_jdbc.head_02.easyjava.spring.data.jdbc.service.Greeter;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import ru.easyjava.spring.data.jdbc.service.Greeter;
 
 /**
  * Simple example of JDBC usage.
